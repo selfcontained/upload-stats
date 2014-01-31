@@ -1,0 +1,24 @@
+{
+  "name": "upload-stats",
+  "version": "0.0.0",
+  "description": "stats on uploading files",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.test.js"
+  },
+  "author": "Brad Harris",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "~1.9.0",
+    "mocha": "~1.17.1"
+  },
+  "dependencies": {
+    "deap": "~0.2.0",
+    "bytes": "~0.2.1",
+    "debounce": "0.0.3",
+    "timestr": "~0.1.0"
+  }
+}
